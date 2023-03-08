@@ -1,0 +1,87 @@
+*{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+input{
+  padding: 10px;
+  border-radius: 4px;
+}
+img{
+  margin-top: 65px;
+  margin-left: -50px;
+}
+body{
+  background: linear-gradient(to right,rgb(243, 72, 101) ,rgb(252, 215, 222))
+}
+.main{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 900;
+  height: 700px;
+  justify-content: center;
+  align-items: center
+}
+.columm1{
+  background-color: rgb(16, 29, 65);
+  color: white;
+  border-top-left-radius: 20px ;
+  border-bottom-left-radius: 20px;
+  flex-direction:column;
+  padding-bottom: 60px;
+  height: 400px;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+}
+.columText{
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+}
+
+.columm2{
+  background-color: white;
+  border-top-right-radius: 20px ;
+  border-bottom-right-radius: 20px;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+.container{
+  margin: 30px;
+  margin-top: -0px ;
+}
+.titulo{
+  margin-bottom: 10px;
+}
+.item-colum2-input{
+  margin-left: 45px;
+  margin-bottom: 25px;
+  width: 250px;
+}
+.item-colum2-label{
+  margin-left: 50px;
+}
+.TerminoCondiciones{
+  margin-right: 70px;
+  margin-left: 70px;
+}
+.buttonOnly{
+  padding: 13px;
+  padding-left:50px ;
+  padding-right:50px ;
+  color: white;
+  background-color: rgb(16, 29, 65);
+  border-radius: 4px;
+  
+}
+.item-colum2{
+  margin-left: 45px;
+}
+.users{
+  width: 20px;
+}
